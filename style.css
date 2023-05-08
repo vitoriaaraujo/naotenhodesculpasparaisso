@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100vw;
+    height: 100vh;
+}
+
+p {
+    display: none;
+}
+
+@media screen and (max-width: 500px)  {
+    p {
+        font-size: small;
+        text-align: center;
+    }
+}
+
+img {
+    width: 30%;
+    display: none;
+}
+
+button {
+    padding: 7px 25px;
+    border-radius: 3px;
+    border: none;
+}
+
+button:hover {
+    border: 1px solid black;
+}
